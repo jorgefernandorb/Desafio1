@@ -51,10 +51,10 @@ int main(void) {
     printf("Escolha uma opção:\n");
     printf("1- Ocupar Armário.\n");
     printf("2- Liberar Armário.\n");
-    printf("0- Sair.\n");
+    printf("3- Sair.\n");
     scanf("%d", &op);
     
-    if(op == 0){
+    if(op == 3){
       break;
     }
     else if(op == 1 && cont<8){
